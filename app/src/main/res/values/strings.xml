@@ -1,7 +1,7 @@
 <resources>
 
-    <string name="app_name">App UIBasica</string>
-    <string name="titulo_app">UI Basica</string>
+    <string name="app_name">Yahave Mondragon - ISC - 16650248</string>
+    <string name="titulo_app"> --- UI Basica ---</string>
 
     <string name="boton_gravity">Actividades</string>
     <string name="boton_check">Casillas de verificacion</string>
@@ -11,4 +11,9 @@
     <string name="etiquetas">Etiquetas</string>
     <string name="botones_radio">Botones de radio</string>
     <string name="cajas_de_texto">Cajas de Texto</string>
+    <string name="actividades">Vista de Actividades</string>
+    <string name="cadenas">Cadenas</string>
+    <string name="objetos">Objetos</string>
+    <string name="array_de_objetos">Array de Objetos</string>
+    <string name="primitivos">Primitivos</string>
 </resources>

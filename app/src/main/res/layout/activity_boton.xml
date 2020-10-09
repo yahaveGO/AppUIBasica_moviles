@@ -11,15 +11,18 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/titulo_size"
         android:gravity="center"
-        android:text="Activities" />
+        android:text="@string/actividades"
+        android:textSize="@dimen/titulo_size" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/top_size"
-        android:text="Primitivos"
+        android:text="@string/primitivos"
+        android:textAllCaps="false"
         android:textColorHint="#FFFFFF" />
 
     <Button
@@ -27,7 +30,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/top_size"
-        android:text="Cadenas"
+        android:text="@string/cadenas"
+        android:textAllCaps="false"
         android:textColorHint="#FFFFFF" />
 
     <Button
@@ -35,7 +39,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/top_size"
-        android:text="Objetos"
+        android:text="@string/objetos"
+        android:textAllCaps="false"
         android:textColorHint="#FFFFFF" />
 
     <Button
@@ -43,5 +48,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/top_size"
-        android:text="Array de Objetos" />
+        android:text="@string/array_de_objetos"
+        android:textAllCaps="false" />
 </LinearLayout>
