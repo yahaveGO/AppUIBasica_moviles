@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">App UIBasica</string>
+    <string name="titulo_app">UI Basica</string>
+
+    <string name="boton_gravity">Actividades</string>
+    <string name="boton_check">Casillas de verificacion</string>
+    <string name="boton_texto">Cajas de texto</string>
+    <string name="selector_spinner">Selectores</string>
+    <string name="paso_parametros">Paso de parametros</string>
+    <string name="etiquetas">Etiquetas</string>
+    <string name="botones_radio">Botones de radio</string>
+    <string name="cajas_de_texto">Cajas de Texto</string>
+</resources>

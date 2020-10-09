@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTituloApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_size"
+        android:gravity="center"
+        android:text="@string/titulo_app"
+        android:textSize="@dimen/titulo_size" />
+
+    <Button
+        android:id="@+id/btnActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_size"
+        android:text="@string/boton_gravity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnPasoParametro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_size"
+        android:text="@string/paso_parametros"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/btnCasillaVerificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_size"
+        android:text="@string/boton_check"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnSelector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_size"
+        android:text="@string/selector_spinner"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnEtiqueta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_size"
+        android:text="@string/etiquetas"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnRadio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_size"
+        android:text="@string/botones_radio"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnCajaTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_size"
+        android:text="@string/cajas_de_texto"
+        android:textAllCaps="false" />
+
+</LinearLayout>

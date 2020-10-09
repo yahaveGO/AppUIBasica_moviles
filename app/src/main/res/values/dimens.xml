@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titulo_size">20sp</dimen>
+    <dimen name="opciones_size">18sp</dimen>
+    <dimen name="top_size">20dp</dimen>
+</resources>
