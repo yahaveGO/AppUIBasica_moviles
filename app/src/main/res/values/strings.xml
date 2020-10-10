@@ -22,4 +22,22 @@
     <string name="vista_etiquetas">Vista de Etiquetas</string>
     <string name="vista_botones_de_redio">Vista de Botones de Radio</string>
     <string name="vista_cajas_de_texto">Vista de Cajas de Texto</string>
+    <string name="txteliminar">Eliminar</string>
+    <string name="txteditar">Editar</string>
+    <string name="boton">Boton</string>
+    <string name="txthombre">Hombre</string>
+    <string name="txtmujer">Mujer</string>
+    <string name="edittext">EditText</string>
+    <string name="textpassword">TextPassword</string>
+    <string name="textemailaddress">TextEmailAddress</string>
+    <string name="edittextdate">editTextDate</string>
+    <string name="edittextnumber">editTextNumber</string>
+
+    <string-array name="numbers">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+    </string-array>
 </resources>

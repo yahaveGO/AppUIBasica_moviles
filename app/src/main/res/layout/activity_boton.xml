@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/titulo_size"
         android:gravity="center"
-        android:text="@string/actividades"
+        android:text="@string/paso_parametros"
         android:textSize="@dimen/titulo_size" />
 
     <Button

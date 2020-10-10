@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BotonCasillas"></activity>
+        <activity android:name=".CajaTexto"></activity>
+        <activity android:name=".Boton_radio" />
+        <activity android:name=".Etiqueta" />
+        <activity android:name=".Selector" />
+        <activity android:name=".BotonCasillas" />
         <activity android:name=".BotonActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -12,19 +12,29 @@ import com.example.modelo.Libro;
 
 public class MainActivity extends AppCompatActivity {
     private EditText name;
-    private Button botonActivity;
+    //private Button botonActivity = findViewById(R.id.btnActividad);
+    private Button botonPasoParametros;
     private Button botonCasillaVerificacion;
+    private Button botonSelector;
+    private Button botonEtiqueta;
+    private Button botonRadio;
+    private Button botonCajaTexto;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        botonActivity            = findViewById(R.id.btnActividad);
+        botonPasoParametros      = findViewById(R.id.btnPasoParametro);
         botonCasillaVerificacion = findViewById(R.id.btnCasillaVerificacion);
+        botonSelector            = findViewById(R.id.btnSelector);
+        botonEtiqueta            = findViewById(R.id.btnEtiqueta);
+        botonRadio               = findViewById(R.id.btnRadio);
+        botonCajaTexto           = findViewById(R.id.btnCajaTexto);
+
 
 //--------------------------------------------------------------------------------------------------PASO DE PARAMETROS
-        botonActivity.setOnClickListener(new View.OnClickListener() {
+        botonPasoParametros.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), BotonActivity.class);
@@ -42,7 +52,45 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+//--------------------------------------------------------------------------------------------------BOTON SELECTOR
+        botonSelector.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Selector.class);
+                intent.putExtra("opcion", "ciclo de vida de las actividades");
+                startActivity(intent);
+            }
+        });
+//--------------------------------------------------------------------------------------------------BOTON ETIQUETAS
+        botonEtiqueta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Etiqueta.class);
+                intent.putExtra("opcion", "ciclo de vida de las actividades");
+                startActivity(intent);
+            }
+        });
+//--------------------------------------------------------------------------------------------------BOTON RADIO
+        botonRadio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Boton_radio.class);
+                intent.putExtra("opcion", "ciclo de vida de las actividades");
+                startActivity(intent);
+            }
+        });
+//--------------------------------------------------------------------------------------------------BOTON CAJA DE TEXTO
+        botonCajaTexto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), CajaTexto.class);
+                intent.putExtra("opcion", "ciclo de vida de las actividades");
+                startActivity(intent);
+            }
+        });
 //--------------------------------------------------------------------------------------------------
+
+
     }
 
 

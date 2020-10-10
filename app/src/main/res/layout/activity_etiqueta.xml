@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Etiqueta">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/titulo_size"
+        android:gravity="center"
+        android:text="@string/vista_etiquetas"
+        android:textSize="@dimen/titulo_size" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/abc_vector_test"
+        android:background="@color/blue"
+        />
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:drawablePadding="20dp"
+        android:paddingTop="@dimen/top_size"
+        android:text="@string/boton"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/top_size"
+        app:backgroundTint="@color/white"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_create_24"
+        android:background="@color/red"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/titulo_size"
+        android:background="@color/black"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="@dimen/titulo_size"
+        android:gravity="center"
+        android:typeface="monospace" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground"
+        android:background="@color/blue"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/titulo_size"
+        android:text="Es una colección de propiedades que especifican la apariencia y el formato de una View o ventana. Una etiqueta puede especificar propiedades, como altura, relleno, color de fuente, tamaño de fuente, color de fondo y mucho más. Las etiquetas se definen en un recurso XML que está separado del XML que especifica el diseño."
+        android:textSize="@dimen/opciones_size"
+        />
+
+</LinearLayout>
