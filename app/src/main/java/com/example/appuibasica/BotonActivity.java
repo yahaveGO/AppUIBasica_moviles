@@ -14,6 +14,8 @@ public class BotonActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_boton);
+//        setContentView(R.layout.activity_casilla);
+
         //String opcion=getIntent().getStringExtra("opcion");
         Libro libro = (Libro) getIntent().getExtras().getSerializable("libro");
         //visualizar("en onCreate");
@@ -61,4 +63,6 @@ public class BotonActivity extends AppCompatActivity {
     private void visualizar(String mensaje){
         Toast.makeText(getApplicationContext(),mensaje,Toast.LENGTH_LONG).show();
     }
+
+
 }

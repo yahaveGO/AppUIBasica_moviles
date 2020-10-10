@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BotonCasilla">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/titulo_size"
+        android:gravity="center"
+        android:text="@string/vista_casilla_verificacion"
+        android:textSize="@dimen/titulo_size" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        android:layout_marginTop="@dimen/titulo_size"
+        android:textSize="@dimen/titulo_size"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Una casilla de verificación, check box, checkbox, tickbox o tick box es un elemento de interacción de la interfaz gráfica de usuario (widget) del Sistema Operativo con el usuario, que permite a éste hacer selecciones múltiples de un conjunto de opciones."
+        android:layout_marginTop="@dimen/titulo_size"
+        android:textSize="@dimen/opciones_size"
+        />
+    <!--
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_size"
+            android:text="@string/cadenas"
+            android:textAllCaps="false"
+            android:textColorHint="#FFFFFF" />
+    -->
+
+</LinearLayout>

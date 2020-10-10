@@ -13,12 +13,17 @@ import com.example.modelo.Libro;
 public class MainActivity extends AppCompatActivity {
     private EditText name;
     private Button botonActivity;
+    private Button botonCasillaVerificacion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        botonActivity = findViewById(R.id.btnActividad);
+
+        botonActivity            = findViewById(R.id.btnActividad);
+        botonCasillaVerificacion = findViewById(R.id.btnCasillaVerificacion);
+
+//--------------------------------------------------------------------------------------------------PASO DE PARAMETROS
         botonActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -28,7 +33,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+//--------------------------------------------------------------------------------------------------CASILLAS DE VERIFICACION
+        botonCasillaVerificacion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), BotonCasilla.class);
+                intent.putExtra("opcion", "ciclo de vida de las actividades");
+                startActivity(intent);
+            }
+        });
+//--------------------------------------------------------------------------------------------------
     }
+
 
     private Libro getLibro(){
         Libro libro=new Libro();
@@ -39,4 +55,6 @@ public class MainActivity extends AppCompatActivity {
         libro.setEdicion("2100");
         return libro;
     }
+
+
 }

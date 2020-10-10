@@ -16,4 +16,10 @@
     <string name="objetos">Objetos</string>
     <string name="array_de_objetos">Array de Objetos</string>
     <string name="primitivos">Primitivos</string>
+
+    <string name="vista_casilla_verificacion">Vista de Casilla de verificacion</string>
+    <string name="vista_selectores">Vista de Selectores</string>
+    <string name="vista_etiquetas">Vista de Etiquetas</string>
+    <string name="vista_botones_de_redio">Vista de Botones de Radio</string>
+    <string name="vista_cajas_de_texto">Vista de Cajas de Texto</string>
 </resources>
