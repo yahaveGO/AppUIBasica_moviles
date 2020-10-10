@@ -4,12 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class BotonCasilla extends AppCompatActivity{
+public class BotonCasillas extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_casilla);
-//        setContentView(R.layout.activity_boton);
+        setContentView(R.layout.activity_boton_casillas);
     }
 }

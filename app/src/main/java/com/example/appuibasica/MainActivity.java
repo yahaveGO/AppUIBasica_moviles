@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         botonCasillaVerificacion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), BotonCasilla.class);
+                Intent intent = new Intent(getApplicationContext(), BotonCasillas.class);
                 intent.putExtra("opcion", "ciclo de vida de las actividades");
                 startActivity(intent);
             }
