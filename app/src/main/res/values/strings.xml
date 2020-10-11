@@ -32,12 +32,22 @@
     <string name="textemailaddress">TextEmailAddress</string>
     <string name="edittextdate">editTextDate</string>
     <string name="edittextnumber">editTextNumber</string>
+    <string name="terminos_y_condiciones">Acepto los Terminos y condiciones</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="enviar">Enviar</string>
+    <string name="selecciona_tu_pais_de_origen">Selecciona tu pais de origen</string>
 
-    <string-array name="numbers">
-        <item>One</item>
-        <item>Two</item>
-        <item>Three</item>
-        <item>Four</item>
-        <item>Five</item>
+    <string-array name="selector_Selector">
+        <item>.:Seleccionar:.</item>
+        <item>Tailandia</item>
+        <item>Rusia</item>
+        <item>Reino Unido</item>
+        <item>Alemania</item>
+        <item>Turquía</item>
+        <item>Italia</item>
+        <item>China</item>
+        <item>España</item>
+        <item>Estados Unidos</item>
+        <item>Mexico</item>
     </string-array>
 </resources>

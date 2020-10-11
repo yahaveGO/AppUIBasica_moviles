@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorMain"
     tools:context=".BotonActivity">
 
     <TextView
@@ -14,12 +15,19 @@
         android:layout_marginTop="@dimen/titulo_size"
         android:gravity="center"
         android:text="@string/paso_parametros"
+        android:textColor="@color/white"
+        android:background="@color/colorMain"
         android:textSize="@dimen/titulo_size" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:color="@color/black"
+        android:textSize="@dimen/titulo_size"
+        android:layout_marginLeft="@dimen/top_size"
+        android:layout_marginRight="@dimen/top_size"
         android:layout_marginTop="@dimen/top_size"
         android:text="@string/primitivos"
         android:textAllCaps="false"
@@ -29,6 +37,11 @@
         android:id="@+id/button7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:color="@color/black"
+        android:textSize="@dimen/titulo_size"
+        android:layout_marginLeft="@dimen/top_size"
+        android:layout_marginRight="@dimen/top_size"
         android:layout_marginTop="@dimen/top_size"
         android:text="@string/cadenas"
         android:textAllCaps="false"
@@ -38,6 +51,11 @@
         android:id="@+id/button8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:color="@color/black"
+        android:textSize="@dimen/titulo_size"
+        android:layout_marginLeft="@dimen/top_size"
+        android:layout_marginRight="@dimen/top_size"
         android:layout_marginTop="@dimen/top_size"
         android:text="@string/objetos"
         android:textAllCaps="false"
@@ -47,7 +65,13 @@
         android:id="@+id/button9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:color="@color/black"
+        android:textSize="@dimen/titulo_size"
+        android:layout_marginLeft="@dimen/top_size"
+        android:layout_marginRight="@dimen/top_size"
         android:layout_marginTop="@dimen/top_size"
         android:text="@string/array_de_objetos"
         android:textAllCaps="false" />
+
 </LinearLayout>

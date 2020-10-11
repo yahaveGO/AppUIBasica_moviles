@@ -5,21 +5,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorMain"
     tools:context=".Selector">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/colorMain"
         android:layout_marginTop="@dimen/titulo_size"
         android:gravity="center"
         android:text="@string/vista_selectores"
         android:textSize="@dimen/titulo_size" />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/titulo_size"
+        android:gravity="left"
+        android:text="@string/selecciona_tu_pais_de_origen"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:textSize="@dimen/titulo_size" />
+
     <Spinner
         android:id="@+id/spinner1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="@dimen/opciones_size"
+        android:textColor="@color/black"
+        android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -28,9 +45,12 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/titulo_size"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
         android:text="El widget Spinner de Android muestra una lista desplegable para seleccionar un único elemento y es equivalente al típico select de html o los ComboBox de otros entornos de desarrollo."
-        android:textSize="@dimen/opciones_size" />
+        android:textSize="@dimen/titulo_size"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        />
 
 </LinearLayout>

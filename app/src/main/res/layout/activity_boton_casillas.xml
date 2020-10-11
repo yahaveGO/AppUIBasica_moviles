@@ -5,7 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorMain"
     tools:context=".BotonCasillas">
+    <!--
+    android:theme="@android:style/Theme.Light"
+    -->
 
     <TextView
         android:id="@+id/textView"
@@ -14,23 +18,51 @@
         android:layout_marginTop="@dimen/titulo_size"
         android:gravity="center"
         android:text="@string/vista_casilla_verificacion"
+        android:textColor="@color/white"
+        android:background="@color/colorMain"
+        android:textSize="@dimen/titulo_size" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/titulo_size"
+        android:gravity="left"
+        android:text="@string/terminos_y_condiciones"
+        android:textColor="@color/black"
+        android:background="@color/white"
         android:textSize="@dimen/titulo_size" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/titulo_size"
-        android:text="CheckBox"
+        android:background="@color/white"
+        android:text="@string/aceptar"
         android:textSize="@dimen/titulo_size" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:color="@color/black"
+        android:textSize="@dimen/opciones_size"
+        android:text="@string/enviar"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:textAllCaps="false"
+        android:textColorHint="#FFFFFF" />
 
     <TextView
         android:id="@+id/textView2"
+        android:background="@color/white"
+        android:color="@color/black"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/titulo_size"
         android:text="Una casilla de verificación, check box, checkbox, tickbox o tick box es un elemento de interacción de la interfaz gráfica de usuario (widget) del Sistema Operativo con el usuario, que permite a éste hacer selecciones múltiples de un conjunto de opciones."
-        android:textSize="@dimen/opciones_size" />
+        android:textSize="@dimen/titulo_size" />
     <!--
         <Button
             android:id="@+id/button7"

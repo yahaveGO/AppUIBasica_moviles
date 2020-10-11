@@ -19,22 +19,18 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/abc_vector_test"
+        android:src="@drawable/ic_home"
         android:background="@color/blue"
         />
 
-    <Button
-        android:id="@+id/boton"
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:drawablePadding="20dp"
-        android:paddingTop="@dimen/top_size"
-        android:text="@string/boton"
+        android:text="ToggleButton"
+        android:background="@color/white"
         android:textColor="@android:color/black"
-        android:textSize="@dimen/top_size"
-        app:backgroundTint="@color/white"
         />
 
     <ImageView
@@ -43,6 +39,7 @@
         android:src="@drawable/ic_baseline_create_24"
         android:background="@color/red"
         />
+
 
     <TextView
         android:id="@+id/textView1"
@@ -57,11 +54,34 @@
         android:gravity="center"
         android:typeface="monospace" />
 
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:drawablePadding="20dp"
+        android:paddingTop="@dimen/top_size"
+        android:text="@string/boton"
+        android:textSize="@dimen/top_size"
+        app:backgroundTint="@color/white"
+        android:textColor="@android:color/black"
+        />
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher_foreground"
+        android:src="@drawable/abc_vector_test"
         android:background="@color/blue"
+        />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        android:textSize="@dimen/top_size"
+        android:background="@color/white"
+        android:textColor="@android:color/black"
         />
 
     <TextView
@@ -70,7 +90,9 @@
         android:layout_height="match_parent"
         android:layout_marginTop="@dimen/titulo_size"
         android:text="Es una colección de propiedades que especifican la apariencia y el formato de una View o ventana. Una etiqueta puede especificar propiedades, como altura, relleno, color de fuente, tamaño de fuente, color de fondo y mucho más. Las etiquetas se definen en un recurso XML que está separado del XML que especifica el diseño."
-        android:textSize="@dimen/opciones_size"
+        android:textSize="@dimen/titulo_size"
+        android:textColor="@color/black"
+        android:background="@color/white"
         />
 
 </LinearLayout>
