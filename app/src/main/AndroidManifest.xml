@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CajaTexto"></activity>
+        <activity android:name=".BotonLogin"></activity>
+        <activity android:name=".CajaTexto" />
         <activity android:name=".Boton_radio" />
         <activity android:name=".Etiqueta" />
         <activity android:name=".Selector" />

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorMain"
     tools:context=".Boton_radio">
 
     <TextView
@@ -12,13 +13,61 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/titulo_size"
+        android:background="@color/colorMain"
+        android:textColor="@color/white"
         android:gravity="center"
         android:text="@string/vista_botones_de_redio"
         android:textSize="@dimen/titulo_size" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorMain"
+        android:textColor="@color/white"
+        android:text="Nivel de ingles:"
+        android:layout_marginTop="@dimen/titulo_size"
+        android:textSize="@dimen/titulo_size"
+        android:gravity="left"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/titulo_size"
+        >
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="@dimen/opciones_size"
+            android:text="Poquito (Bajo)" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="@dimen/opciones_size"
+            android:text="Masomenos (Intermedio)" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="@dimen/opciones_size"
+            android:text="@string/i_am_pro_advanced" />
+    </RadioGroup>
+
 
 <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/colorMain"
+    android:textColor="@color/white"
     android:text="Selecciona sexo:"
     android:layout_marginTop="@dimen/titulo_size"
     android:textSize="@dimen/titulo_size"
@@ -31,16 +80,20 @@
         >
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black"
             android:textSize="@dimen/opciones_size"
             android:text="@string/txthombre" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radioButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black"
             android:textSize="@dimen/opciones_size"
             android:text="@string/txtmujer" />
     </RadioGroup>
@@ -48,9 +101,12 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/titulo_size"
         android:text="Un RadioButton es uno control de selección que proporciona la interfaz de Android para permitir a los usuarios seleccionar una opción de un conjunto, Son ideales para elegir uno de varios elementos con exclusión mutua, es decir, la selección de un radio button obliga a descartar la de otro, permitiendo solo a un ítem estar activo."
-        android:textSize="@dimen/opciones_size" />
+        android:textSize="@dimen/titulo_size"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        />
 
 </LinearLayout>

@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private Button botonEtiqueta;
     private Button botonRadio;
     private Button botonCajaTexto;
-
+    private Button botonLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         botonEtiqueta            = findViewById(R.id.btnEtiqueta);
         botonRadio               = findViewById(R.id.btnRadio);
         botonCajaTexto           = findViewById(R.id.btnCajaTexto);
+        botonLogin               = findViewById(R.id.btnLogin);
 
 
 //--------------------------------------------------------------------------------------------------PASO DE PARAMETROS
@@ -84,6 +85,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), CajaTexto.class);
+                intent.putExtra("opcion", "ciclo de vida de las actividades");
+                startActivity(intent);
+            }
+        });
+//--------------------------------------------------------------------------------------------------
+        botonLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), BotonLogin.class);
                 intent.putExtra("opcion", "ciclo de vida de las actividades");
                 startActivity(intent);
             }

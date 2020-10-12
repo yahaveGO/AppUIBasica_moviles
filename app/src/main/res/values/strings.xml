@@ -27,15 +27,21 @@
     <string name="boton">Boton</string>
     <string name="txthombre">Hombre</string>
     <string name="txtmujer">Mujer</string>
-    <string name="edittext">EditText</string>
-    <string name="textpassword">TextPassword</string>
-    <string name="textemailaddress">TextEmailAddress</string>
-    <string name="edittextdate">editTextDate</string>
-    <string name="edittextnumber">editTextNumber</string>
+    <string name="edittext">EditText:</string>
+    <string name="textpassword">TextPassword:</string>
+    <string name="textemailaddress">TextEmailAddress:</string>
+    <string name="edittextdate">editTextDate:</string>
+    <string name="edittextnumber">editTextNumber:</string>
     <string name="terminos_y_condiciones">Acepto los Terminos y condiciones</string>
     <string name="aceptar">Aceptar</string>
     <string name="enviar">Enviar</string>
     <string name="selecciona_tu_pais_de_origen">Selecciona tu pais de origen</string>
+    <string name="txtusuario">Usuario</string>
+    <string name="txtpassword">Password</string>
+    <string name="txtlogin">Login</string>
+    <string name="txtinicio">Inicio</string>
+    <string name="i_am_pro_advanced"><![CDATA[I am pro º<º (Advanced)]]></string>
+    <string name="login">Login</string>
 
     <string-array name="selector_Selector">
         <item>.:Seleccionar:.</item>
